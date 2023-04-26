@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 export const StatsList = styled.ul`
-    margin:0px;
+    margin: 0 auto;
     width:inherit;
     display:flex; 
     justify-content: stretch ;

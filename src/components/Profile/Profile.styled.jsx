@@ -3,7 +3,8 @@ export const Prof = styled.div`
   width: 350px;
   height: auto;
   background-color: #eaebe6;
-  margin: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
   border-radius: 15px;
 `;
 export const Description = styled.div`
