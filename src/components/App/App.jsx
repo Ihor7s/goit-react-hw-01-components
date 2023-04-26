@@ -1,6 +1,6 @@
 
 
-import { Container } from './App.styled';
+
 
 import { Profile } from '../Profile/Profile';
 import user from '../../user.json';
