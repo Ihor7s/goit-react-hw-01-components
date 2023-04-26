@@ -1,31 +1,33 @@
 import styled from '@emotion/styled';
 export const Prof = styled.div`
   width: 350px;
-  height: 500px;
-  background-color: #fff;
+  height: auto;
+  background-color: #eaebe6;
   margin: 10px;
+  border-radius: 15px;
 `;
 export const Description = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
   align-items: center;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 `;
 export const Avatar = styled.img`
-  background-color: #ab8b8b;
-  width: 250px;
+  background-color: #767a64;
+  width: 200px;
   border-radius: 50%;
   margin-top: 20px;
   padding: 15px;
 `;
 export const Name = styled.p`
-  font-weight: 500;
-  font-size: 22px;
+  font-weight: 700;
+  font-size: 24px;
 `;
 export const Tag = styled.p`
-  font-style: italic;
+  font-style: normal;
 `;
 export const Location = styled.p`
-  font-size: 22px;
+  font-size: 20px;
+  font-size: initial;
 `;

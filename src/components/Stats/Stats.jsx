@@ -5,7 +5,7 @@ import { StatsList, Item, Label, Quantity } from "./Stats.styled";
  const stats = user.stats;
 export const Stats = (user) => {
    const { followers, views, likes } = stats;
-  console.log("followers from stats ",followers)
+//   console.log("followers from stats ",followers)
    return(
   <StatsList>
     <Item>
