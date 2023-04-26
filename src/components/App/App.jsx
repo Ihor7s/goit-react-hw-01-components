@@ -7,18 +7,18 @@
 // import friends from '../../friends.json';
 // import { TransactionHistory } from '../Transactions/TransactionHistory';
 // import transactions from '../../transactions.json';
- 
-//all task in one
-export const App = () => {
-  return (
-    <Container>
-      <Profile item={user} />
-      <Statistics title="Upload stats" data={stats} />
-      <FriendList data={friends} />
-      <TransactionHistory data={transactions} />
-    </Container>
-  );
-};
+  
+// //all task in one
+// export const App = () => {
+//   return (
+//     <Container>
+//       <Profile item={user} />
+//       <Statistics title="Upload stats" data={stats} />
+//       <FriendList data={friends} />
+//       <TransactionHistory data={transactions} />
+//     </Container>
+//   );
+// };
 //end all task
 //task №1
 // export const App = () => {
