@@ -1,17 +1,16 @@
 
 
-// import { Container } from './App.styled';
+import { Container } from './App.styled';
 
+import { Profile } from '../Profile/Profile';
+import user from '../../user.json';
 
-// import { FriendList } from '../../Friends/FriendList';
-// import friends from '../../friends.json';
 
 
 export const App = () => {
   return (
     <>
-      
-      {/* <FriendList data={friends} /> */}
+      <Profile item={user} />
       
     </>
   );
